@@ -26,18 +26,11 @@ function App() {
     }
   };
 
-  const sharePara = (para) => {
-    navigator.share({
-      title: "Share Paragraph",
-      text: para,
-    });
-  };
-
   return (
     <main>
       <h2>TIRED OF BORING LOREM IPSUM?</h2>
       <div className="form">
-        <label htmlFor="para">Paragraphs</label>
+        <label htmlFor="para">Paragraphs:</label>
         <input
           type="number"
           placeholder="Paragraphs"
